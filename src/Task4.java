@@ -8,7 +8,10 @@ public class Task4 {
         String generate();
 
         default void print(String value) {
-            System.out.println(Optional.ofNullable(value).orElseGet(                );
+            System.out.println(
+                    Optional.ofNullable(value)
+                            .orElseGet(                 )
+            );
         }
     }
 
